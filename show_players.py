@@ -24,7 +24,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=belica_deck
     )
 
     countes_btn = Button(
@@ -34,7 +35,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=countes_deck
     )
 
     dekker_btn = Button(
@@ -44,7 +46,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=dekker_deck
     )
 
     feng_mao_btn = Button(
@@ -54,7 +57,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=feng_mao_deck
     )
 
     gadget_btn = Button(
@@ -64,7 +68,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=gadget_deck
     )
 
     gideon_btn = Button(
@@ -74,7 +79,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=gideo_deck
     )
 
     grux_btn = Button(
@@ -84,7 +90,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=grux_deck
     )
 
     howitzer_btn = Button(
@@ -94,7 +101,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=howitzer_deck
     )
 
     kallari_btn = Button(
@@ -104,7 +112,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=kallari_deck
     )
 
     khaimera_btn = Button(
@@ -114,7 +123,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=khaimera_deck
     )
 
     kwang_btn = Button(
@@ -124,7 +134,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=kwang_deck
     )
 
     murdock_btn = Button(
@@ -134,7 +145,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=murdock_deck
     )
 
     muriel_btn = Button(
@@ -144,7 +156,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=muriel_deck
     )
 
     narbash_btn = Button(
@@ -154,7 +167,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=narbash_deck
     )
 
     phase_btn = Button(
@@ -164,7 +178,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=phase_deck
     )
 
     rampage_btn = Button(
@@ -174,7 +189,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=rampage_deck
     )
 
     revenant_btn = Button(
@@ -184,7 +200,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=revenant_deck
     )
 
     serath_btn = Button(
@@ -194,7 +211,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=serath_deck
     )
 
     severog_btn = Button(
@@ -204,7 +222,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=severog_deck
     )
 
     shinbi_btn = Button(
@@ -214,7 +233,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=shinbi_deck
     )
 
     sparrow_btn = Button(
@@ -224,7 +244,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=sparrow_deck
     )
 
     steel_btn = Button(
@@ -234,7 +255,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=steel_deck
     )
 
     the_fey_btn = Button(
@@ -244,7 +266,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=the_fey_deck
     )
 
     twinblast_btn = Button(
@@ -254,7 +277,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=twinblast_deck
     )
 
     wraith_btn = Button(
@@ -264,7 +288,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=wraith_deck
     )
 
     zena_btn = Button(
@@ -274,7 +299,8 @@ def show_players():
         fg="white",
         borderwidth=0,
         width=10,
-        height=1
+        height=1,
+        command=zena_deck
     )
     frame.create_window(50, 50, window=aurora_btn)
     frame.create_window(50, 100, window=belica_btn)
